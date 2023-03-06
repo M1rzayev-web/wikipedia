@@ -1,6 +1,6 @@
 const searchForm = document.getElementById("form");
 const searchInput = document.getElementById("qiymat");
-const searchResults = document.querySelector(".wiki");
+const searchResult = document.querySelector(".wiki");
 const select = document.getElementById("select");
 const apiUrl = "https://";
 const apirUrl2 = ".wikipedia.org/w/api.php";
@@ -22,7 +22,7 @@ searchInput.addEventListener("input", (event) => {
   fetch(`${apiUrl + select.value + apirUrl2}?${queryString}`)
     .then((response) => response.json())
     .then((data) => {
-      const searchResultsHtml = data.query.search
+      const searchResultHtml = data.query.search
         .map(
           (result) => `
             <div class="coctile-item">
@@ -40,10 +40,10 @@ searchInput.addEventListener("input", (event) => {
         `
         )
         .join("");
-      searchResults.innerHTML = searchResultsHtml;
+      searchResult.innerHTML = searchResultHtml;
     })
     .catch((error) => {
       console.error(error);
-      searchResults.innerHTML = "<p>Natija topilmadi</p>";
+      searchResult.innerHTML = "<p>Natija topilmadi</p>";
     });
 });
