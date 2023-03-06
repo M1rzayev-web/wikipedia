@@ -10,7 +10,7 @@ const searchParams = {
   format: "json",
   origin: "*",
 };
-
+const google = "https://picsum.photos/200";
 searchInput.addEventListener("input", (event) => {
   event.preventDefault();
   const searchTerm = searchInput.value.trim();
@@ -31,7 +31,7 @@ searchInput.addEventListener("input", (event) => {
               <p>NAME: ${searchInput.value} haqida </p>
          </div>
          <div class="images">
-                  <img src="${result.pageImages}" alt="">
+                  <img src="${google}" alt="">
          </div>
          <div class="item-text">
              <p>${result.snippet}</p>
