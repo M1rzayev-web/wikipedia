@@ -1,0 +1,62 @@
+body {
+  background-color: black;
+}
+#h1 {
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+#form {
+  width: 100%;
+  text-align: center;
+}
+#submit {
+  color: white;
+  border: 1px solid white;
+  background-color: black;
+}
+#qiymat {
+  outline: none;
+}
+#select {
+  width: 70px;
+  outline: none;
+}
+.wiki {
+  margin-top: 50px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  color: antiquewhite;
+}
+.id-name-time {
+  width: 400px;
+  height: 40px;
+  border: 1px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  align-items: center;
+}
+.coctile-item {
+  width: 400px;
+  height: 550px;
+  border: 1px solid white;
+}
+.images {
+  width: 80%;
+  margin: 40px 40px 0 40px;
+  height: 300px;
+  border: 1px solid white;
+}
+.images img {
+  width: 100%;
+  height: 100%;
+}
+.item-text p {
+  border: 1px solid white;
+  overflow: auto;
+  width: 100%;
+  height: 150px;
+}
