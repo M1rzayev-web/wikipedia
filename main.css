@@ -38,6 +38,7 @@ body {
   align-items: center;
   justify-content: space-around;
   align-items: center;
+  background-color: rgb(255, 0, 0);
 }
 .coctile-item {
   width: 400px;
