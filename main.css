@@ -19,7 +19,7 @@ body {
   outline: none;
 }
 #select {
-  width: 70px;
+  width: 90px;
   outline: none;
 }
 .wiki {
@@ -42,6 +42,7 @@ body {
 }
 .coctile-item {
   width: 400px;
+  margin: 15px;
   height: 550px;
   border: 1px solid white;
 }
