@@ -12,7 +12,7 @@ const select = document.getElementById("select");
     format: "json",
     prop: "extracts",
     exsentences: "2",
-    exlimit: "90",
+    exlimit: "500",
     origin: "*",
   };
   // const google = "https://picsum.photos/200/";
